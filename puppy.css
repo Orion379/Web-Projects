@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+img { /* imgs that are within container cant have a width that is greater than the container*/
+    max-width: 100%;
+}
+
+
+ul {
+    list-style: none;
+}
+/* header styling */
+.header-wrapper{
+    background: #2c6177;
+    height: 75px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.title-wrapper{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+/* section 1 styling */
+.main-background img{
+    width: 100%;
+}
+
+/* section 2 styling */
+.internal-wrapper{
+    display: flex;
+    gap: 50px;
+    padding: 30px 50px 20px 50px ;
+}
+.internal-wrapper .item{
+    flex: 1;
+}
+.item img{
+    width: 100%;
+    display: block;
+}
+.missing{
+    background: #ff4d6d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.text{
+    text-align: center;
+    padding-top: 10px;  
+    font-size: 30px; 
+    font-weight: bold; 
+}
+
+/* section -3 styling */
+
+.section-3 .bigger-dogs-wrapper ul{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    padding: 50px;
+    
+}
+.section-3 .bigger-dogs-wrapper li{
+    width: 43%;
+}
+.section-3 .bigger-dogs-wrapper img{
+    width: 100%;
+    display: block;
+}
+
+
+/* footer styling */
+.footer-wrapper{
+    background: #2c6177;
+    height: 85px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.designer-wrapper{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
