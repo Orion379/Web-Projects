@@ -15,9 +15,8 @@ ul {
     background: #2c6177;
     height: 75px;   
     display: flex;
-    justify-content: center;
+    justify-content: center;   /* grouped together and centered horizontally*/
     align-items: center;
-    justify-content: center;
 }
 .title-wrapper{
     text-align: center;
@@ -38,7 +37,7 @@ ul {
     padding: 30px 50px 20px 50px ;
 }
 .internal-wrapper .item{
-    flex: 1;
+    flex: 1;   /* to grow and share the available space equally inside a flex container.*/
 }
 .item img{
     width: 100%;
@@ -49,7 +48,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;
+    font-size: 40px;
 }
 .text{
     text-align: center;
@@ -74,7 +73,6 @@ ul {
     width: 100%;
     display: block;
 }
-
 
 /* footer styling */
 .footer-wrapper{
