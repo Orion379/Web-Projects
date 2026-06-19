@@ -1,0 +1,481 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+img { /* imgs that are within container cant have a width that is greater than the container*/
+    max-width: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/* Header Style*/
+.header-wrapper{
+    background: white;
+    color: black;
+    font-weight: 200;
+    font-size: 0.75em; /* 1em = 16px */
+}
+.header-wrapper ul{
+    display: flex; /* to make them horizontal*/
+    -webkit-box-pack: justify;   /* older version of justify content*/
+    justify-content: space-between;
+}
+.internal-wrapper{
+    width: 980px;
+    padding: 0 10px;
+    margin: 0 auto; /* makes it center*/
+}
+.header-wrapper .header-links-wrapper ul li a{
+    text-decoration: none;
+    color: black;
+}
+.header-wrapper ul{
+    list-style: none;
+}
+.header-wrapper .header-links-wrapper ul li{
+    display: inline-block;
+    padding: 14px 0 8px;
+    height: 25px;
+    
+}
+.header-wrapper .header-links-wrapper ul li:hover{
+    opacity: 1;
+}
+.logo-link, .search-link, .cart-link{
+    width: 18px;
+    display: block;
+    filter: invert(100%);
+
+}
+.header-wrapper .header-links-wrapper ul li.logo-link{
+    padding: 12px 0 10px;  /* top left&right bottom*/
+}
+.header-wrapper .header-links-wrapper ul li.search-link{
+    padding: 14px 0 8px;
+}
+.header-wrapper .header-links-wrapper ul li.cart-link{
+    padding: 12px 0 10px;
+}
+
+
+/* Main Highlight */  /*
+.main-highlight-wrapper {
+    background-image: url(../CurrentApple/hero_iphone_17_pro__bknyzxfk2agi_mediumtall_2x.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+    padding: 25px;
+    height: 100vh;
+    color: #fff;
+}  */
+
+.main-highlight-wrapper {
+    background-image: url(../CurrentApple/hero_college_students_2026__dzrtx52rt9aq_large.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 600px;
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: flex-start;
+    padding-top: 60px; /* control spacing here */
+    text-align: center;
+}
+.links-wrapper ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.model{
+    font-size: 0.85em;
+}
+.product-title{
+    font-weight: 700;
+    font-size: 56px;
+    color: black;
+}
+.brief-description{
+    font-size: 28px;
+    color: black;
+}
+.links-wrapper{
+    padding: 15px 0;
+}
+.links-wrapper ul li{
+    display: inline-block;
+    padding-right: 20px;
+}
+.links-wrapper ul li a{
+    color: #06c;
+    text-decoration: none;
+}
+.links-wrapper ul li a:hover{
+    color: #000;
+}
+
+.learn-btn{
+    background-color: #0071e3;
+    color: white;
+    border: none;
+    padding: 18px 30px;
+    border-radius: 999px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+
+/* Second Highlight Section */
+.second-highlight-wrapper{
+    background-image: url(../CurrentApple/hero_iphone_family__be5jkzxszb1e_medium.jpg);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 20px;
+    color: black;
+    margin: 12px 0;
+}
+.title-wrapper{
+    font-weight: 600px;
+    font-size: 56px;
+    font-weight: bold;
+}
+.description-wrapper{
+    font-size: 28px;
+    padding: 10px 0;
+    
+}
+.buy-btn2{
+    background-color:white;
+    color: #0071e3;
+    border: 1px solid #0071e3;
+    padding: 9px 12px;
+    border-radius: 999px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.buy-btn2:hover{
+    background-color: #0071e3;
+    color: white;
+}
+
+
+/* Third Highlight Section */
+.third-highlight-wrapper{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    margin: 12px 0;
+}
+.left-side-wrapper{
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 48.5%;
+    
+}
+.third-highlight-wrapper .left-side-wrapper{
+    background-image: url(../CurrentApple/promo_macbook_air_m5__e5xk2yysqiie_medium_2x.jpg);
+}
+.right-side-wrapper{
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 48.5%;
+    
+}
+.third-highlight-wrapper .right-side-wrapper .logo-wrapper{
+    height: 50px;
+}
+.third-highlight-wrapper .right-side-wrapper{
+    background-image: url(../CurrentApple/promo_ipad_air_m4__bgcv7t286k8y_large_2x.jpg);
+}
+.third-highlight-wrapper .description-wrapper{
+   font-size: 20px;
+   padding: 3px 0;
+}
+.title-third{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* Fouth Highlight Section */
+.fourth-highlight-wrapper{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+}
+.left-side-wrapper{
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    width: 48.5%;
+    margin: 1% 0.5% 0% 1%;
+    padding-top: 54px;
+}
+.fourth-highlight-wrapper .left-side-wrapper{
+    background-image: url(../CurrentApple/promo_privacy__cnqoldc74oty_medium.jpg);
+   
+}
+.fourth-highlight-wrapper .left-side-wrapper .description-wrapper{
+    color: white;
+    padding: 0;
+}
+.right-side-wrapper{
+    height: 580px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    width: 48.5%;
+    margin: 1% 1% 0% 0.5%;
+    padding-top: 54px;
+}
+.fourth-highlight-wrapper .right-side-wrapper{
+    background-image: url(../CurrentApple/promo_macbook_pro__c9td9w1mc8ia_large.jpg);  
+}
+.fourth-highlight-wrapper .right-side-wrapper .title-third, .description-wrapper{
+    color: black;
+    padding: 3px;
+}
+.fourth-highlight-wrapper .description-wrapper{
+    font-size: 20px;
+}
+.fourth-highlight-wrapper .buy-btn2, .learn-btn{
+    padding: 9px 12px;
+    font-size: 15px;
+}
+
+
+/* Fifth Highlight Section */
+.fifth-highlight-wrapper{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+}
+.left-side-wrapper{
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 48.5%;
+    margin: 1% 0.5% 0% 1%;
+    padding-top: 54px;
+}
+.fifth-highlight-wrapper .left-side-wrapper{
+    background-image: url(../CurrentApple/promo_apple_card__d8xz4kd4evwy_large.jpg);
+   
+}
+.fifth-highlight-wrapper .description-wrapper{
+    color: black;
+    font-size: 20px;
+    padding-top: 5px;
+}
+.right-side-wrapper{
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 48.5%;
+    margin: 1% 1% 0% 0.5%;
+    padding-top: 54px;
+}
+.fifth-highlight-wrapper .right-side-wrapper{
+    background-image: url(../CurrentApple/promo_iphone_tradein__bugw15ka691e_medium_2x.jpg);
+    
+}
+.fifth-highlight-wrapper .buy-btn2, .learn-btn{
+    padding: 9px 12px;
+    font-size: 15px;
+}
+.fifth-highlight-wrapper .left-side-wrapper .right-side-wrapper .lo img{
+    padding-top: 20px;
+}
+
+
+/* footer style */
+
+.footer-wrapper{
+    background-color: #f5f5f7;
+    color: #1d1d1f;
+    font-size: .65em;
+}
+.upper-text-container{
+    border-bottom: 1px solid #d2d2d7;
+    color: #86868b;
+    padding: 17px 0 20px;
+}
+.upper-text-container a{
+    text-decoration: none;
+    color: #515154;
+}
+.upper-text-container a:hover{
+    text-decoration: underline;
+}
+.footer-links-wrapper{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.footer-wrapper ul{
+    list-style: none;
+    padding-bottom: 20px;
+}
+.footer-wrapper ul li{
+    padding: 5px 0;
+    font-size: 0.9em;
+}
+.footer-content{
+    width: 980px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.footer-links-wrapper a{
+    color: #515154;
+    text-decoration: none;
+}
+.footer-links-wrapper a:hover{
+    text-decoration: underline;
+}
+.footer-links-wrapper h3{
+    font-size: 12px;
+    font-weight: 600;
+}
+.my-apple-wrapper{
+    border-bottom: 1px solid #d2d2d7;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.copyright-wrapper{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 10px 0 20px;
+}
+.footer-links-terms ul li{
+    display: inline-block;
+    padding: 0 5px;
+    border-right: 1px solid #ccc;
+}
+.footer-links-terms ul li:last-child{
+    border-right: 0px;
+}
+.footer-links-terms ul li a{
+    text-decoration: none;
+    color: #515154;
+}
+.footer-links-terms ul li a:hover{
+    text-decoration: underline;
+}
+.footer-country{
+    display: inline-block;
+}
+.flag-wrapper{
+    display: inline-block;
+    vertical-align: middle;
+}
+.footer-country-name{
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/* Tablets */
+@media (max-width: 1024px) {
+
+    .left-side-wrapper,
+    .right-side-wrapper {
+        width: 100%;
+        margin: 10px 0;
+        height: 500px;
+    }
+
+    .product-title,
+    .title-third {
+        font-size: 36px;
+    }
+}
+
+/* Phones */
+@media (max-width: 768px) {
+
+    .left-side-wrapper,
+    .right-side-wrapper {
+        width: 100%;
+        height: 400px;
+        padding-top: 30px;
+        background-size: contain;
+        margin: 10px 0;
+    }
+
+    .product-title,
+    .title-third {
+        font-size: 28px;
+    }
+
+    .description-wrapper {
+        font-size: 18px;
+    }
+
+    .links-wrapper ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .learn-btn,
+    .buy-btn,
+    .buy-btn2 {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+
+    .left-side-wrapper,
+    .right-side-wrapper {
+        height: 320px;
+        background-size: contain;
+    }
+
+    .product-title,
+    .title-third {
+        font-size: 24px;
+    }
+
+    .description-wrapper {
+        font-size: 16px;
+    }
+}
+
+/* since we're using flexbox */
+
+@media (max-width: 768px) {
+
+    .third-highlight-wrapper,
+    .fourth-highlight-wrapper,
+    .fifth-highlight-wrapper {
+        flex-direction: column;
+    }
+}
